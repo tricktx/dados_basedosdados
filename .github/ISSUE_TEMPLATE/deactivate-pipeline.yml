@@ -1,0 +1,6 @@
+# name: "📊 Deactivate"
+# description: "Desativar uma pipeline"
+# title: "[dados] <dataset_id>.<table_id>"
+# labels: 
+#   - "bug"
+# assignees: ["${{ github.actor }}"]
