@@ -1,6 +1,6 @@
-name: "🛑 Desativar Pipeline"
+name: "🛑 Deactivate"
 description: "Solicitação para desativar o schedule de uma pipeline"
-title: "[Deactivate] <dataset_id>.<table_id>"
+title: "[deactivate] <dataset_id>.<table_id>"
 labels: 
   - "maintenance"
 
@@ -19,7 +19,7 @@ body:
     validations:
       required: true
 
- - type: checkboxes
+  - type: checkboxes
     attributes:
       label: "✅ Passo a Passo"
       description: "Selecione as ações que devem ser realizadas junto com a desativação."

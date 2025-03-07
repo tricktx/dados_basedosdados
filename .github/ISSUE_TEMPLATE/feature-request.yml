@@ -1,6 +1,6 @@
 name: "✨ Feature Request"
 description: "💡 Solicitação de uma nova funcionalidade para o repositório `queries-basedosdados`"
-title: "[Feature] <título>"
+title: "[feature] <título>"
 labels: 
   - "enhancement"
 

@@ -1,13 +1,13 @@
-name: "📖 Documentação"
-description: "Relate melhorias ou problemas na documentação em arquivos Markdown, README ou Arquiteturas"
-title: "[Docs] <title>"
+name: "📖 Docs"
+description: "✒️ Relate melhorias ou problemas na documentação em arquivos Markdown, README ou Arquiteturas"
+title: "[docs] <title>"
 labels: 
   - "documentation"
 
 body:
   - type: textarea
     attributes:
-      label: "📝 Descrição do Problema ou Melhoria"
+      label: "📝 Descrição do Problema ou  da Melhoria"
       description: "Explique claramente o problema ou a sugestão de melhoria na documentação. Inclua exemplos, erros encontrados ou pontos que podem ser melhorados."
     validations:
       required: true

@@ -1,6 +1,6 @@
-name: "📊 Novos Dados"
+name: "📊 Data"
 description: "Solicitação para adicionar novos dados à BD"
-title: "[dados] <dataset_id>"
+title: "[data] <dataset_id>"
 labels: []
 
 
