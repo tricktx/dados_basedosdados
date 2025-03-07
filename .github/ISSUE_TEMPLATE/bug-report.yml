@@ -3,6 +3,7 @@ description: Report a bug or an issue you've found with dbt
 title: "[Bug] <title>"
 labels: 
   - "bug"
+  - "triage"
 
 body:
   - type: textarea
@@ -20,7 +21,8 @@ body:
 
   - type: checkboxes
     attributes:
-      label: "🚀 O bug está impactando algum nível a BD (Quebrando outras pipelines, etc)"
+      label: "🚀 O bug está impactando algum nível a BD."
+      description: "Quebrando outras pipelines, gerando custo adicional e etc?"
       options:
         - "Sim"
         - "Não"
