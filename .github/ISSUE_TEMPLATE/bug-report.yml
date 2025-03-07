@@ -1,0 +1,28 @@
+name: 🐞 Bug
+description: Report a bug or an issue you've found with dbt
+title: "[Bug] <title>"
+labels: 
+  - "bug"
+
+body:
+  - type: textarea
+    attributes:
+      label: "Descrição do Bug"
+      description: "Explique de forma clara e objetiva o que essa o bug que você está enfrentando."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "🛠️ Proposta de solução"
+      description: "Descreva a proposta de solução para o bug."
+
+
+  - type: checkboxes
+    attributes:
+      label: "🚀 O bug está impactando algum nível a BD (Quebrando outras pipelines, etc)"
+      options:
+        - "Sim"
+        - "Não"
+
+

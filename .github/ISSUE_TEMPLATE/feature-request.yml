@@ -1,38 +1,38 @@
-name: "✨ Feature"
-description: "Para novas funcionalidades em relação ao repositório de `queries-basedosdados`"
-title: "[Feature] <title>"
+name: "✨ Feature Request"
+description: "💡 Solicitação de uma nova funcionalidade para o repositório `queries-basedosdados`"
+title: "[Feature] <título>"
 labels: 
   - "enhancement"
-  - "triage"
 
 body:
   - type: textarea
     attributes:
-      label: "Descreva a sua feature"
-      description: "Descreva de forma clara e concisa."
+      label: "📌 Descrição da funcionalidade"
+      description: "Explique de forma clara e objetiva o que essa funcionalidade deve fazer e qual problema ela resolve."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: "Alternativa proposta"
-      description: "Descreva a sua proposta de para o funcionamento da feature."
+      label: "🛠️ Proposta de solução"
+      description: "Descreva como a funcionalidade deve ser implementada ou qual abordagem você sugere."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: "Como a BD se beneficia com a feature?"
-      description: "Descreva como a BD se beneficia com a feature."
+      label: "🚀 Benefícios para a BD"
+      description: "Explique como essa funcionalidade contribuirá para a BD e seus usuários."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: "Precisará de contribuição de terceiros?"
-      description: "Descreva se a feature precisará de contribuição de terceiros, se sim, cite-lo na issue."
+      label: "🤝 Necessidade de colaboração externa"
+      description: "A implementação dependerá de contribuições de terceiros? Se sim, mencione os envolvidos ou possíveis colaboradores."
 
   - type: textarea
     attributes:
-      label: "Outras considerações"
-      description: "Descreva outras considerações relevantes sobre a feature."
+      label: "📎 Outras considerações"
+      description: "Inclua quaisquer informações adicionais relevantes para a solicitação."
+
