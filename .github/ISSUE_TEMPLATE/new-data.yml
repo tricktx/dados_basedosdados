@@ -2,7 +2,7 @@ name: "📊 Novos Dados"
 description: "Solicitação para adicionar novos dados à BD"
 title: "[dados] <dataset_id>"
 labels: []
-assignees: ["${{ github.actor }}"]
+assignees: ${{ github.actor }}
 
 body:
   - type: textarea

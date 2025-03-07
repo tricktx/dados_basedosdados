@@ -3,7 +3,7 @@ description: "💡 Solicitação de uma nova funcionalidade para o repositório 
 title: "[Feature] <título>"
 labels: 
   - "enhancement"
-assignees: ["${{ github.actor }}"]
+assignees: ${{ github.actor }}
 
 body:
   - type: textarea

@@ -4,7 +4,7 @@ title: "[Bug] <title>"
 labels: 
   - "bug"
   - "triage"
-assignees: ["${{ github.actor }}"]
+assignees: ${{ github.actor }}
 
 body:
   - type: textarea
