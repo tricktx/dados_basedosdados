@@ -1,5 +1,5 @@
 name: 🐞 Bug
-description: Report a bug or an issue you've found with dbt
+description: 🚨 Relate um bug ou problema encontrado nos dados ou em alguma funcionadade da Base dos Dados
 title: "[Bug] <title>"
 labels: 
   - "bug"
@@ -8,8 +8,8 @@ labels:
 body:
   - type: textarea
     attributes:
-      label: "Descrição do Bug"
-      description: "Explique de forma clara e objetiva o que essa o bug que você está enfrentando."
+      label: " 🐛 Descrição do Bug"
+      description: "Explique de forma clara e objetiva o que essa o bug que você está enfrentando. (Se possível, acrescente logs e mensagens de erro)"
     validations:
       required: true
 
@@ -18,13 +18,23 @@ body:
       label: "🛠️ Proposta de solução"
       description: "Descreva a proposta de solução para o bug."
 
-
   - type: checkboxes
     attributes:
-      label: "🚀 O bug está impactando algum nível a BD."
+      label: "📄 O bug está impactando algum nível a Base dos Dados."
       description: "Quebrando outras pipelines, gerando custo adicional e etc?"
       options:
         - label: "Sim"
         - label: "Não"
+
+  - type: textarea
+    attributes:
+      label: "📍 Na sua visão, essa correção deveria ser priorizada?"
+      description: "Descreva abaixo, se na sua visão, essa correção deveria deveria ser priorizada na próxima sprint."
+
+
+  - type: textarea
+    attributes:
+      label: "📌 Outras informações relevantes"
+      description: "Adicione qualquer outra informação que possa ajudar a investigar e corrigir o problema."
 
 
