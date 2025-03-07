@@ -24,7 +24,7 @@ body:
       label: "🚀 O bug está impactando algum nível a BD."
       description: "Quebrando outras pipelines, gerando custo adicional e etc?"
       options:
-        - "Sim"
-        - "Não"
+        - label: "Sim"
+        - label: "Não"
 
 
