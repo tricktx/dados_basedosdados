@@ -1,0 +1,14 @@
+name: "✨ Feature"
+description: "Para novas funcionalidades em relação ao repositório de `queries-basedosdados`"
+title: "[Feature] <title>"
+labels: 
+  - "enhancement"
+  - "triage"
+
+body:
+  - type: textarea
+    attributes:
+      label: "Descreva a sua feature"
+      description: "Descreva de forma clara e concisa."
+    validations:
+      required: true
