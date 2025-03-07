@@ -12,3 +12,32 @@ body:
       description: "Descreva de forma clara e concisa."
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: "Alternativa proposta"
+      description: "Descreva a sua proposta de para o funcionamento da feature."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Como a BD se beneficia com a feature?"
+      description: "Descreva como a BD se beneficia com a feature."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Precisará de contribuição de terceiros?"
+      description: "Descreva se a feature precisará de contribuição de terceiros, se sim, cite-lo na issue."
+
+  - type: textarea
+    attributes:
+      label: "Outras considerações"
+      description: "Descreva outras considerações relevantes sobre a feature."
+
+  - type: textarea
+    attributes:
+      label: "Outras considerações"
+      description: "Descreva outras considerações relevantes sobre a feature."
