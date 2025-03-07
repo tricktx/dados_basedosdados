@@ -36,8 +36,3 @@ body:
     attributes:
       label: "Outras considerações"
       description: "Descreva outras considerações relevantes sobre a feature."
-
-  - type: textarea
-    attributes:
-      label: "Outras considerações"
-      description: "Descreva outras considerações relevantes sobre a feature."
